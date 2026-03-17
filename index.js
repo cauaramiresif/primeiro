@@ -5,6 +5,11 @@ const app = express()
 const PORT = 3000
 
 app.get('/', (req, res) => {
+    const conteudo = `<h1>Vai tbm HTML</h1>
+    <p>Mais Texto</p>
+    <ul><li>Item 1</li>
+    <li>Item 1</li></ul>
+    `
     res.send ('Bem-vindo ao universo dos heróis da Marvel e da DC')
 })
 
